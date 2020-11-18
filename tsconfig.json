@@ -13,6 +13,8 @@
     "paths": {
       "@src/*": [ "src/*" ],
       "@src": [ "src/index" ]
-    }
+    },
+    "rootDir": "src",
+    "outDir": "dist"
   }
 }
