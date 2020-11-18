@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "ts": "ts-node -r tsconfig-paths/register"
+    "ts": "ts-node -r tsconfig-paths/register",
+    "prepublishOnly": "tsc"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
