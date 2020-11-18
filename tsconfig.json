@@ -15,6 +15,7 @@
       "@src": [ "src/index" ]
     },
     "rootDir": "src",
-    "outDir": "dist"
+    "outDir": "dist",
+    "declaration": true
   }
 }
