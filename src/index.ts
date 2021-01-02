@@ -14,7 +14,7 @@ class SleepingPromise<T> implements Promise<T> {
 
   constructor(
     private executor: (
-      resolve: ( value?: T | PromiseLike<T> ) => void,
+      resolve: ( value: T | PromiseLike<T> ) => void,
       reject: ( reason?: any ) => void
     ) => void ) {}
 
